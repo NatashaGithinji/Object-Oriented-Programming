@@ -167,21 +167,21 @@ public class Marksheet{
         System.out.print("Unit 1 : " + Unit1 + ":");
         int student5mark1 = input.nextInt();
         System.out.print("Unit 2 : " + Unit2 + ":");
-        mark2 = input.nextInt();
+        int student5mark2 = input.nextInt();
         System.out.print("Unit 3 : " + Unit3 + ":");
-        mark3 = input.nextInt();
+        int student5mark3 = input.nextInt();
         System.out.print("Unit 4 : " + Unit4 + ":");
-        mark4 = input.nextInt();
+        int student5mark4 = input.nextInt();
         System.out.print("Unit 5 : " + Unit5 + ":");
-        mark5 = input.nextInt();
+        int student5mark5 = input.nextInt();
         System.out.print("Unit 6 : " + Unit6 + ":");
-        student4mark6 = input.nextInt();
+        int student5mark6 = input.nextInt();
         System.out.print("Unit 7 : " + Unit7 + ":");
-        mark7 = input.nextInt();
+        int student5mark7 = input.nextInt();
 
 
 
-        int TotalMarks5 = mark1 + mark2 + mark3 + mark4 + mark5 + student5mark6 + mark7;
+        int TotalMarks5 = student5mark1 + student5mark2 + student5mark3 + student5mark4 + student5mark5 + student5mark6 + student5mark7;
         System.out.println(" Total marks : " + TotalMarks5);
         double Average5 = TotalMarks5 / 7.0;
         System.out.println("Average marks : " + Average5);
