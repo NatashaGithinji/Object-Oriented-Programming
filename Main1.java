@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main1{
+public class Marksheet{
     public static void main(String [] args){
 
         Scanner input = new Scanner(System.in);
